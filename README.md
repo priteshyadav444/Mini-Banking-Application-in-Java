@@ -45,6 +45,7 @@ CREATE TABLE `customer` (
 >>Eclipse Project Setup:
 
 step1 : Create New Project
+
 Step2 : Create A package name banking
 
 >>File Configuration:
@@ -56,12 +57,11 @@ Step2 : Create A package name banking
 
 Step 1: Include JDBC Driver for MySQL
 
-// register jdbc Driver 
 String mysqlJDBCDriver = "com.mysql.cj.jdbc.Driver";
 Class.forName(mysqlJDBCDriver);
 
 Step 2: Create Connection Class using MySQL username and password
-// Create Connection
+
 String url = "jdbc:mysql://localhost:3306/mydata";
 String user = "root";
 String pass = "123";
