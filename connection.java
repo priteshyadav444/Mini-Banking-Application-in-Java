@@ -12,7 +12,7 @@ public class connection {
 			String mysqlJDBCDriver = "com.mysql.cj.jdbc.Driver";
 			String url = "jdbc:mysql://localhost:3306/mydata";
 			String user = "root";
-			String pass = "Pritesh4@";
+			String pass = "yoursqlpassword";
 			
 			Class.forName(mysqlJDBCDriver);
 			con  = DriverManager.getConnection(url,user,pass);
