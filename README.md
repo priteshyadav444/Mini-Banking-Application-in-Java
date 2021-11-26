@@ -51,3 +51,20 @@ Step2 : Create A package name banking
 
 ![Screenshot31](https://user-images.githubusercontent.com/61544732/143549148-bd117a40-6931-46f8-8cd7-60ea25ca5d04.png)
 
+
+>>Create a Connection class in the banking package
+
+Step 1: Include JDBC Driver for MySQL
+
+// register jdbc Driver 
+String mysqlJDBCDriver = "com.mysql.cj.jdbc.Driver";
+Class.forName(mysqlJDBCDriver);
+
+Step 2: Create Connection Class using MySQL username and password
+// Create Connection
+String url = "jdbc:mysql://localhost:3306/mydata";
+String user = "root";
+String pass = "123";
+con = DriverManager.getConnection(url, user, pass);
+
+
