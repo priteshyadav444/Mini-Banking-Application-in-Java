@@ -1,4 +1,4 @@
-# Mini Bank Application
+# Mini Bank Application in Java
 
 In any Bank Transaction, there are several parties involved to process transaction like a merchant, bank, receiver, etc. so there are several numbers reasons that transaction may get failed, declined, so to handle a transaction in Java, there is a JDBC (Java Database Connectivity) which provides us an API to connect, execute, fetch data from any databases. It provides the language Java database connectivity standards. It is used to write programs required to access databases.
 
